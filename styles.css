@@ -8,8 +8,6 @@
 
 body {
     font-family: 'Poetsen One', sans-serif;
-    display: flex;
-    flex-direction: column;
 }
 
 .heading-title {
@@ -159,17 +157,17 @@ body {
     line-height: 2rem;
 }
 
-.section-4{
+.section-4 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section-4 img{
+.section-4 img {
     flex: 1;
 }
 
-.section-4-about{
+.section-4-about {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -177,17 +175,17 @@ body {
     flex-direction: column;
 }
 
-.section-4-about > h1 {
+.section-4-about>h1 {
     font-size: 3rem;
 }
 
-.section-4-about > p {
+.section-4-about>p {
     font-size: 2rem;
     padding: 10px;
     text-align: left;
 }
 
-.tokenomics{
+.tokenomics {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,16 +199,16 @@ body {
     gap: 15px;
 }
 
-.tokenomics > h1 {
+.tokenomics>h1 {
     font-size: 3rem;
 }
 
-.tokenomics > p {
+.tokenomics>p {
     font-size: 2rem;
     line-height: 2.5rem;
 }
 
-.section-5{
+.section-5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,18 +216,18 @@ body {
     gap: 10px;
 }
 
-.section-5 > h1 {
+.section-5>h1 {
     font-size: 3rem;
 }
 
-.need-link{
+.need-link {
     width: 40%;
     aspect-ratio: 1/1;
     border: 1px solid black;
     text-align: center;
 }
 
-.section-6{
+.section-6 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,7 +235,7 @@ body {
     margin: 10px;
 }
 
-.how-to-buy-1{
+.how-to-buy-1 {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -248,11 +246,11 @@ body {
     margin-top: 20px;
 }
 
-.how-to-buy-1 > img {
+.how-to-buy-1>img {
     width: 50%;
 }
 
-.how-to-buy-2{
+.how-to-buy-2 {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -261,7 +259,7 @@ body {
     flex-direction: column;
 }
 
-.how-to-buy-2 .step{
+.how-to-buy-2 .step {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,7 +270,7 @@ body {
     max-width: 75%;
 }
 
-.step div{
+.step div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -285,6 +283,93 @@ body {
     min-width: 20%;
 }
 
-.footer{
+.footer {
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    img {
+        max-width: 50%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    .section-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-2 img {
+        width: 100%;
+    }
+
+    .section-2 .about p {
+        width: 100%;
+        max-width: 80%;
+    }
+
+    .section-2 .about {
+        margin: 0 auto;
+    }
+
+    .section-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-3 .section-3-about-1 p {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .section-3-about-2 .part .description p {
+        max-width: 100%;
+    }
+
+    .section-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-4 img {
+        width: 50%;
+    }
+
+    .section-4 p {
+        text-align: center;
+    }
+
+    .need-link {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .section-6 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-6 .how-to-buy-1 img {
+        width: 50%;
+        min-width: 100%;
+    }
+
+    .step * p {
+        max-width: 100%;
+    }
 }
