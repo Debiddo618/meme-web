@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poetsen One', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-title {
+    text-align: center;
+    font-size: 2rem;
+    background: linear-gradient(lightblue, blue);
+    color: white;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    height: auto;
+}
+
+.logo-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.logo-name>img {
+    width: 400px;
+    aspect-ratio: 1/1;
+}
+
+.web-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.nav {
+    display: inline-flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    border-radius: 1rem;
+}
+
+.quote-1 {
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-2 .about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 2;
+    gap: 10px;
+    margin-left: -50px;
+}
+
+
+.section-2 .about>p {
+    max-width: 50%;
+    font-size: 1.5rem;
+}
+
+.project-overview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 10px;
+    min-width: 50%;
+}
+
+.section-2>img {
+    flex: 1;
+    flex-shrink: 0;
+}
+
+.section-3 {
+    display: flex;
+}
+
+.section-3-about-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    flex: 1;
+}
+
+.section-3-about-1>h1 {
+    font-size: 3rem;
+}
+
+.section-3-about-1>p {
+    font-size: 2rem;
+    padding: 10px;
+    text-align: left;
+}
+
+.section-3-about-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    flex: 1;
+}
+
+.section-3-about-2 .part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.section-3-about-2 .part .description p {
+    font-size: 1.5rem;
+    max-width: 75%;
+    line-height: 2rem;
+}
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 img{
+    flex: 1;
+}
+
+.section-4-about{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-4-about > h1 {
+    font-size: 3rem;
+}
+
+.section-4-about > p {
+    font-size: 2rem;
+    padding: 10px;
+    text-align: left;
+}
+
+.tokenomics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 10px;
+    min-width: 50%;
+    margin: 10px;
+    gap: 15px;
+}
+
+.tokenomics > h1 {
+    font-size: 3rem;
+}
+
+.tokenomics > p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.section-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-5 > h1 {
+    font-size: 3rem;
+}
+
+.need-link{
+    width: 40%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.section-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.how-to-buy-1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.how-to-buy-1 > img {
+    width: 50%;
+}
+
+.how-to-buy-2{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.how-to-buy-2 .step{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step p {
+    font-size: 1.5rem;
+    max-width: 75%;
+}
+
+.step div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.step img {
+    min-width: 20%;
+}
+
+.footer{
+    text-align: center;
+}
