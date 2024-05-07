@@ -8,12 +8,18 @@
 
 body {
     font-family: 'Poetsen One', sans-serif;
+    background: url('images/logo2.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
 }
 
 .heading-title {
     text-align: center;
     font-size: 2rem;
-    background: linear-gradient(lightblue, blue);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
 }
 
@@ -21,7 +27,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 10px;
     margin: 10px;
     height: auto;
@@ -32,6 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 4rem;
+    gap: 50px;
 }
 
 .logo-name>img {
@@ -56,25 +62,19 @@ body {
 }
 
 .nav {
-    display: inline-flex;
-    background-color: grey;
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    margin: 10px;
     border-radius: 1rem;
 }
 
 .quote-1 {
     font-size: 3rem;
-    background-color: black;
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     text-align: center;
-}
-
-.section-2 {
-    display: flex;
-    justify-content: space-around;
 }
 
 .section-2 .about {
@@ -84,6 +84,11 @@ body {
     flex: 2;
     gap: 10px;
     margin-left: -50px;
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 1rem;
+
 }
 
 
@@ -102,6 +107,9 @@ body {
     border-radius: 1rem;
     padding: 10px;
     min-width: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+
 }
 
 .section-2>img {
@@ -121,6 +129,8 @@ body {
     gap: 10px;
     margin: 20px;
     flex: 1;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
 }
 
 .section-3-about-1>h1 {
@@ -141,6 +151,8 @@ body {
     gap: 10px;
     margin: 20px;
     flex: 1;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
 }
 
 .section-3-about-2 .part {
@@ -157,7 +169,55 @@ body {
     line-height: 2rem;
 }
 
+.bud-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.bud-img img:hover {
+    transform: scale(1.2);
+}
+
+.bud-img {
+    display: flex;
+}
+
 .section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+
+}
+
+.section-7 {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+/* .section-4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,9 +233,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+} */
 
-.section-4-about>h1 {
+/* .section-4-about>h1 {
     font-size: 3rem;
 }
 
@@ -197,16 +259,18 @@ body {
     min-width: 50%;
     margin: 10px;
     gap: 15px;
-}
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+} */
 
-.tokenomics>h1 {
+/* .tokenomics>h1 {
     font-size: 3rem;
 }
 
 .tokenomics>p {
     font-size: 2rem;
     line-height: 2.5rem;
-}
+} */
 
 .section-5 {
     display: flex;
@@ -244,6 +308,8 @@ body {
     flex-direction: column;
     padding: 10px;
     margin-top: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
 }
 
 .how-to-buy-1>img {
@@ -257,6 +323,8 @@ body {
     align-items: center;
     gap: 10px;
     flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
 }
 
 .how-to-buy-2 .step {
@@ -326,6 +394,10 @@ body {
         width: 100%;
     }
 
+    .logo-name h1 {
+        font-size: 3rem;
+    }
+
     .section-2 {
         display: flex;
         flex-direction: column-reverse;
@@ -393,4 +465,11 @@ body {
     .step * p {
         max-width: 100%;
     }
+}
+
+.logo-image {
+    border-radius: 50%;
+    overflow: hidden;
+    /* Clip the image to the container */
+    background-position: center
 }
